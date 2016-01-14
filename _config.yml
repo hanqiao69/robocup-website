@@ -1,0 +1,16 @@
+# Site settings
+title: UPennalizers Website
+description: ""
+baseurl: "/~robocup"
+# url: "http://pennapps.mentoring.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
