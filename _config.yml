@@ -2,7 +2,7 @@
 title: UPennalizers Website
 description: ""
 baseurl: "/~robocup"
-# url: "http://pennapps.mentoring.com"
+# url: ""
 
 # Build settings
 markdown: kramdown
