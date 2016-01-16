@@ -4,36 +4,39 @@
 	{% include head.html %}
 
 	<body>
-		<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--transparent">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">Title</span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-      </nav>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">UPennalizers</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link" href="">About</a>
+            <a class="mdl-navigation__link" href="">Publications</a>
+            <a class="mdl-navigation__link" href="">Photos</a>
+            <a class="mdl-navigation__link" href="">Videos</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">UPennalizers</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">About</a>
+          <a class="mdl-navigation__link" href="">Publications</a>
+          <a class="mdl-navigation__link" href="">Photos</a>
+          <a class="mdl-navigation__link" href="">Videos</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div id="content" class="page-content">
+          <img src="https://fling.seas.upenn.edu/~robocup/wiki/local/final.jpg" style="width: 70%; display: block; margin-left: auto; margin-right: auto;">
+          {{ content }}
+        </div>
+        {% include footer.html %}
+      </main>
     </div>
-  </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-    </nav>
-  </div>
-  <main class="mdl-layout__content">{{ content }}
-  </main>
-</div>
+  </body>
 
-		{% include footer.html %}
-	</body>
-
-	</html>
+  </html>

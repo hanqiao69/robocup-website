@@ -1,9 +1,11 @@
-.demo-layout-transparent {
- /* background-image: url('../../../final.jpg') center / cover;*/
+#content {
+	font-size: xx-large;
+	padding-left: 50px;
+	padding-right: 50px;
 }
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-  color: white;
+
+#email-address {
+	text-align: center;
+	font-size: small;
+	font-family: "Courier New", Courier, monospace;
 }
