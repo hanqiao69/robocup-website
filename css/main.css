@@ -9,3 +9,14 @@
 	font-size: small;
 	font-family: "Courier New", Courier, monospace;
 }
+
+#about {
+	text-indent: 5em;
+	font-size: medium;
+	line-height: 2;
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 50px;
+}
