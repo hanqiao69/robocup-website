@@ -7,7 +7,15 @@ li {
 	font-size: large;
 }
 
+iframe {
+	width: 80%; 
+	height: 400px; 
+	padding-left: 10%;
+	padding-left: 10%;
+}
+
 .footer {
+	font-size: small;
 	padding-left: 0;
 	padding-right: 0;
 	background-color: #0052cc;
