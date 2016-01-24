@@ -2,6 +2,10 @@
 	border-radius: 50%;
 }
 
+li {
+	margin: 20px;
+}
+
 .footer {
 	padding-left: 0;
 	padding-right: 0;
