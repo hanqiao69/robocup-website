@@ -1,0 +1,74 @@
+.horizontal-scroll-panel {
+      width: 100%;
+      height: 260px;
+      background-color: #b3e6ff;
+      border-radius: 15px;
+      border-left: 20px;
+      border-right: 20px;
+      padding-left: 20px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+      overflow-y: hidden !important;
+      overflow-x: auto;
+    }
+    .horizontal-scroll-panel > ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      -webkit-padding-start: 0;
+      font-size: 0;
+    }
+    .horizontal-scroll-panel li {
+      display: inline-block;
+/*      border: solid 1px #666;
+      box-shadow: 0 0 4px #666;*/
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      margin-right: 20px;
+      font-size: 0;
+    }
+    .horizontal-scroll-panel li:first-of-type {
+      margin-left: 0 !important;
+    }
+    .horizontal-scroll-panel li:last-of-type {
+      margin-right: 0 !important;
+    }
+    img {
+      height: 200px !important;
+    }
+    [dir=rtl] .horizontal-scroll-panel li {
+      margin-right: 0 !important;
+      margin-left: 20px !important;
+    }
+    [dir=rtl] .horizontal-scroll-panel li:first-of-type {
+      margin-right: 0 !important;
+    }
+    [dir=rtl] .horizontal-scroll-panel li:last-of-type {
+      margin-left: 0 !important;
+    }
+    
+    @media only screen and (max-device-width: 320px) {
+      .horizontal-scroll-panel {
+        height: 125px;
+        padding: 10px;
+      }
+      .horizontal-scroll-panel li {
+        height: 125px;
+        width: 125px;
+      }
+      img {
+        height: 125px !important;
+      }
+    }
+
+    a.fancybox img {
+        border: none;
+        box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(2,4); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
+    } 
+    a.fancybox:hover img {
+        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
+    }
