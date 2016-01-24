@@ -1,10 +1,15 @@
 .img-circle {
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 .footer {
 	padding-left: 0;
 	padding-right: 0;
+	background-color:#0052cc;
+	width=100%; 
+	min-width: 1000px;
+	position:absolute;
+	bottom:0;
 }
 
 #content {
