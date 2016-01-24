@@ -2,6 +2,11 @@
     border-radius: 50%;
 }
 
+.footer {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 #content {
 	font-size: small;
 	padding-left: 50px;
