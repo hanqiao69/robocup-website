@@ -1,0 +1,20 @@
+var NAVTREEINDEX0 =
+{
+"_game_f_s_m_8lua.html":[0,0,1],
+"_game_f_s_m_8lua_source.html":[0,0,1],
+"files.html":[0,0],
+"game_finished_8lua.html":[0,0,0],
+"game_finished_8lua_source.html":[0,0,0],
+"game_initial_8lua.html":[0,0,2],
+"game_initial_8lua_source.html":[0,0,2],
+"game_penalized_8lua.html":[0,0,3],
+"game_penalized_8lua_source.html":[0,0,3],
+"game_playing_8lua.html":[0,0,4],
+"game_playing_8lua_source.html":[0,0,4],
+"game_ready_8lua.html":[0,0,5],
+"game_ready_8lua_source.html":[0,0,5],
+"game_set_8lua.html":[0,0,6],
+"game_set_8lua_source.html":[0,0,6],
+"index.html":[],
+"pages.html":[]
+};
