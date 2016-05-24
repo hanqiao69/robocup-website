@@ -1,5 +1,29 @@
+.img-circle {
+	border-radius: 50%;
+}
+
+li {
+	margin: 20px;
+	font-size: large;
+}
+
+iframe {
+	height: 800pxi;
+}
+
+.footer {
+	font-size: small;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #0052cc;
+	width : 100%; 
+	min-width: 1000px;
+	position:absolute;
+	bottom:0;
+}
+
 #content {
-	font-size: xx-large;
+	font-size: small;
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -8,4 +32,15 @@
 	text-align: center;
 	font-size: small;
 	font-family: "Courier New", Courier, monospace;
+}
+
+#about {
+	text-indent: 5em;
+	font-size: medium;
+	line-height: 2;
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 50px;
 }
